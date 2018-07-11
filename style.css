@@ -1,1 +1,14 @@
-<div id="white_on_red">White writing on a red background.</div>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  color: white
+  background-color: red
+}
+</style>
+</head>
+
+<body>
+</body>
+</html>
