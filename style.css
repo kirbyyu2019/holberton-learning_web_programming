@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-p {
-  color: white
-  background-color: red
+#white_on_red {
+  background-color: red;
+  color: white;
 }
-</style>
-</head>
-
-<body>
-</body>
-</html>
