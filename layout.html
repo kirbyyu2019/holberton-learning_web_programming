@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+</head>
+<body>
+
+<style>
+
+div.relative {
+  position:relative;
+  border:1px solid;
+  width:100%;
+  height:50px;
+}
+
+div.relativebot {
+  position:relative;
+  border:1px solid;
+  width:100%;
+  height:50px;
+  top:150px;
+}
+div.relativetop {
+  position:relative;
+  top:50px
+}
+
+</style>
+
+<div class="relative">First row</div>
+
+<div class="relativetop">
+  <div class="jumbotron">
+  <center>
+    Hello
+  </center>
+</div>
+
+<div class="row"><div class="col" style="background-color:blue;height:200px;">First Col</div>
+  <div class="col" style="background-color:white;height:200px;">Second Col</div>
+    <div class="col" style="background-color:red;height:200px;">Third Col</div>
+</div>
+</div>
+
+<div class="relativebot">Third row</div>
+</div>
+</body>
+</html>
